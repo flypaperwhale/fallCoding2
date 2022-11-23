@@ -1211,7 +1211,7 @@ function simulationState() {
   if (state === "simulation") {
     camera.on();
     //console.log(camera.on);
-    //playBGMusic();
+    playBGMusic();
     // display the background/map
     push();
     imageMode(CENTER);
